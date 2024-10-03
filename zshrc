@@ -25,3 +25,5 @@ export NVM_DIR="$HOME/.nvm"
 export AUTOMATION_DIR="$HOME/projects/automation"
 export PATH="${PATH}:${AUTOMATION_DIR}/bin"
 
+alias nb="notebook.sh"
+alias reload="source ~/.zshrc"
