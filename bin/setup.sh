@@ -1,0 +1,1 @@
+ln -s "${AUTOMATION_DIR}/zshrc ~/.zshrc
