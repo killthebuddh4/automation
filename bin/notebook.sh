@@ -18,8 +18,8 @@ cd "$target_dir"
 
 osascript <<EOF
 if application "Neovide" is running then
-    do shell script "open -a Neovide"
+    do shell script "open -a \"Neovide\""
 else
-    do shell script "neovide ."
+    do shell script "open -a \"Neovide\" \"$target_dir\""
 end if
 EOF
